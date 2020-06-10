@@ -15,6 +15,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                         $totaltax=(6.2/100)*$total;
                                         $totalcost=$total+$totaltax; 
                         }
+  //displaying the ordered item
 
                         echo " You have ordered : ";
                         echo "<table border=1><tr><th>Item</th><th>Qty</th><th>Rate</th></tr>";
